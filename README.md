@@ -1,9 +1,9 @@
 # MetaHarmonizer
 
-[![Application CI](https://github.com/sehyunohlab/metaHarmonizer/actions/workflows/ci.yml/badge.svg)](https://github.com/sehyunohlab/metaHarmonizer/actions/workflows/ci.yml)
-[![Security Gates](https://github.com/sehyunohlab/metaHarmonizer/actions/workflows/security.yml/badge.svg)](https://github.com/sehyunohlab/metaHarmonizer/actions/workflows/security.yml)
-[![Container Smoke](https://github.com/sehyunohlab/metaHarmonizer/actions/workflows/deploy-smoke.yml/badge.svg)](https://github.com/sehyunohlab/metaHarmonizer/actions/workflows/deploy-smoke.yml)
-[![License](https://img.shields.io/github/license/sehyunohlab/metaHarmonizer)](LICENSE)
+[![Application CI](https://github.com/sehyunohlab/MetaHarmonizerApp/actions/workflows/ci.yml/badge.svg)](https://github.com/sehyunohlab/MetaHarmonizerApp/actions/workflows/ci.yml)
+[![Security Gates](https://github.com/sehyunohlab/MetaHarmonizerApp/actions/workflows/security.yml/badge.svg)](https://github.com/sehyunohlab/MetaHarmonizerApp/actions/workflows/security.yml)
+[![Container Smoke](https://github.com/sehyunohlab/MetaHarmonizerApp/actions/workflows/deploy-smoke.yml/badge.svg)](https://github.com/sehyunohlab/MetaHarmonizerApp/actions/workflows/deploy-smoke.yml)
+[![License](https://img.shields.io/github/license/sehyunohlab/MetaHarmonizerApp)](LICENSE)
 
 MetaHarmonizer is a human-in-the-loop platform for converting heterogeneous
 clinical metadata into standardized, ontology-annotated, export-ready schemas.
@@ -64,8 +64,8 @@ Prerequisites: Docker Engine with Compose, approximately 15 GB free disk, and
 8 GB RAM.
 
 ```bash
-git clone https://github.com/sehyunohlab/metaHarmonizer.git
-cd metaHarmonizer
+git clone https://github.com/sehyunohlab/MetaHarmonizerApp.git
+cd MetaHarmonizerApp
 cp .env.example .env
 ```
 
