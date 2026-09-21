@@ -23,8 +23,8 @@ export COMPOSE_FILE=docker-compose.yml:docker-compose.prod.yml
 ## 2. Get the code + configure
 
 ```bash
-git clone https://github.com/sehyunohlab/metaHarmonizer.git
-cd metaHarmonizer
+git clone https://github.com/sehyunohlab/MetaHarmonizerApp.git
+cd MetaHarmonizerApp
 cp .env.example .env
 ```
 

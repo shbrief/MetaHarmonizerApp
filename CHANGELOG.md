@@ -33,5 +33,5 @@ Initial public deployment of the complete GSoC 2026 application:
   alert delivery, capacity reporting, rollback, and protected security CI;
 - measured dashboard and real-ML operating limits.
 
-[Unreleased]: https://github.com/sehyunohlab/metaHarmonizer/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/sehyunohlab/metaHarmonizer/releases/tag/v0.1.0
+[Unreleased]: https://github.com/sehyunohlab/MetaHarmonizerApp/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/sehyunohlab/MetaHarmonizerApp/releases/tag/v0.1.0
