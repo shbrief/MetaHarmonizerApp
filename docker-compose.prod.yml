@@ -1,4 +1,4 @@
-# MetaHarmonizer — production overlay.
+# MetaHarmonizerApp — production overlay.
 #   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
 #
 # Adds public TLS termination (Caddy on 80/443, automatic Let's Encrypt) and

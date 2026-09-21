@@ -1,11 +1,12 @@
-# Running MetaHarmonizer locally
+# Running MetaHarmonizerApp locally
 
 **One path, five steps, the same on Windows, macOS, and Linux — Docker.**
 
 You don't edit any configuration to get running: `.env.example` ships preconfigured
 (a dev login secret and the public knowledge-base download URL are already set).
-MetaHarmonizer always runs the real ML engine, so the only sizeable step is a
-**one-time ~1.4 GB download** of the engine knowledge base + embedding models.
+MetaHarmonizerApp always runs the real MetaHarmonizer engine, so the only
+sizeable step is a **one-time ~1.4 GB download** of the engine knowledge
+base and embedding models.
 
 ## Prerequisites
 

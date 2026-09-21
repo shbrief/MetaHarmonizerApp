@@ -1,4 +1,4 @@
-# MetaHarmonizer — dev-only overrides (auto-loaded by `docker compose up`).
+# MetaHarmonizerApp — dev-only overrides (auto-loaded by `docker compose up`).
 #
 # Adds the developer conveniences the prod-safe base intentionally omits:
 #   - live code bind-mounts + uvicorn --reload

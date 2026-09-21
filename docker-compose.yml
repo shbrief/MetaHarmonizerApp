@@ -1,4 +1,4 @@
-# MetaHarmonizer — base stack (prod-safe): Postgres + Redis + API + worker +
+# MetaHarmonizerApp — base stack (prod-safe): Postgres + Redis + API + worker +
 # Caddy (serving the built SPA). Shared by dev and prod.
 #
 #   dev :  docker compose up            # auto-loads docker-compose.override.yml

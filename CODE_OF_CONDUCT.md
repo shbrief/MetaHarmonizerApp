@@ -1,6 +1,6 @@
 # Code of Conduct
 
-MetaHarmonizer contributors and operators must maintain a respectful,
+MetaHarmonizerApp contributors and operators must maintain a respectful,
 professional, and inclusive environment.
 
 ## Expected behavior

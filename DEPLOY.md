@@ -1,4 +1,4 @@
-# Self-hosting MetaHarmonizer
+# Self-hosting MetaHarmonizerApp
 
 A provider-neutral runbook to stand up a production instance with Docker
 Compose on any Linux VM or compatible container host. The stack is **Postgres +

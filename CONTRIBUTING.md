@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for improving MetaHarmonizer.
+Thank you for improving MetaHarmonizerApp.
 
 ## Workflow
 

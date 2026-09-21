@@ -2,13 +2,19 @@
 
 ## System context
 
-MetaHarmonizer is a human-in-the-loop metadata harmonization system. Curators
+MetaHarmonizerApp is a human-in-the-loop metadata harmonization system. Curators
 upload de-identified tabular metadata, review schema and ontology proposals,
 approve corrections, inspect quality, and export standardized datasets. AI
 clients may reach the same engine through the optional MCP server, and validated
 exports feed cBioPortal-compatible tooling.
 
-<img src="architecture-overview.svg" alt="MetaHarmonizer system architecture and workflow showing clients, the single-host production runtime, durable state, external integrations, delivery, and host operations">
+**Naming.** *MetaHarmonizerApp* is this repository: the deployable platform
+(SPA, API, worker, and datastores). *MetaHarmonizer* is the upstream ML package
+[`shbrief/MetaHarmonizer`](https://github.com/shbrief/MetaHarmonizer), vendored
+behind the engine adapter. Throughout this document "the engine" means the
+latter, never the platform as a whole.
+
+<img src="architecture-overview.svg" alt="MetaHarmonizerApp system architecture and workflow showing clients, the single-host production runtime, durable state, external integrations, delivery, and host operations">
 
 Production currently runs on one host, so PostgreSQL, Redis, Caddy, API, and
 worker share a failure domain; horizontal scaling does not by itself create high

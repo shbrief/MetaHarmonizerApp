@@ -2,7 +2,7 @@
 
 ## Current repository
 
-MetaHarmonizer is currently distributed under the repository's
+MetaHarmonizerApp is currently distributed under the repository's
 [MIT License](../LICENSE). Contributions submitted here are made under that
 license unless the project adopts a different process through an explicit,
 reviewed change.
@@ -41,7 +41,7 @@ code there:
 
 This document explains project process and is not legal advice.# Licensing and cBioPortal Relicensing Context
 
-MetaHarmonizer is currently distributed under the [MIT License](../LICENSE).
+MetaHarmonizerApp is currently distributed under the [MIT License](../LICENSE).
 The upstream MetaHarmonizer engine is also MIT-licensed. No AGPL dependency is
 declared in the project manifests.
 
