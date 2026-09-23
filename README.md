@@ -1,27 +1,25 @@
-# MetaHarmonizer
+# MetaHarmonizerApp
 
 [![Application CI](https://github.com/sehyunohlab/MetaHarmonizerApp/actions/workflows/ci.yml/badge.svg)](https://github.com/sehyunohlab/MetaHarmonizerApp/actions/workflows/ci.yml)
 [![Security Gates](https://github.com/sehyunohlab/MetaHarmonizerApp/actions/workflows/security.yml/badge.svg)](https://github.com/sehyunohlab/MetaHarmonizerApp/actions/workflows/security.yml)
 [![Container Smoke](https://github.com/sehyunohlab/MetaHarmonizerApp/actions/workflows/deploy-smoke.yml/badge.svg)](https://github.com/sehyunohlab/MetaHarmonizerApp/actions/workflows/deploy-smoke.yml)
 [![License](https://img.shields.io/github/license/sehyunohlab/MetaHarmonizerApp)](LICENSE)
 
-MetaHarmonizer is a human-in-the-loop platform for converting heterogeneous
-clinical metadata into standardized, ontology-annotated, export-ready schemas.
-It combines deterministic matching, curated aliases, semantic models, and an
-optional LLM fallback with review workflows that keep curators in control.
+MetaHarmonizerApp is a human-in-the-loop platform for harmonizing heterogeneous
+patient/sample-level metadata into standardized, ontology-grounded schemas.
+MetaHarmonizerApp runs [MetaHarmonizer](https://github.com/shbrief/MetaHarmonizer): 
+briefly, it applies multi-staged mapping modules at the schema and value levels
+(SchemaMapper and OntologyMapper, respectively). 
 
-**Public deployment:** [metaharmonizer.online](https://metaharmonizer.online)
+**Public Deployment:** [metaharmonizer.online](https://metaharmonizer.online)
 
-**Project:** [cBioPortal GSoC 2026 proposal](https://github.com/cBioPortal/GSoC/issues/136)
+## Features
 
-## Capabilities
-
-- Map source columns to cBioPortal, GDC, and curated target schemas.
-- Normalize values against NCIt, UBERON, and EFO ontology snapshots.
+- Standardize input metadata to the pre-defined (e.g., cBioPortal, GDC) or user-provided schemas.    
+- Normalize values against existing or user-provided ontology snapshots (e.g., NCIt, UBERON, and EFO).
 - Review low-confidence mappings in risk-prioritized schema and ontology queues.
 - Reuse personal curator decisions and promote reviewed decisions to a shared layer.
-- Compare quality, confidence, stage, and coverage metrics before export.
-- Export validated cBioPortal-compatible clinical metadata.
+- Provide a report on quality, confidence, stage, and coverage metrics before export.
 - Run asynchronous jobs with bounded retries, queue backpressure, and live progress.
 - Preserve reproducibility through schema versions, ontology snapshot hashes, and audit history.
 
